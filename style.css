@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.resume-contents {
+body {
     min-height: 100vh;
     width: 80%;
     margin: 2rem auto;
@@ -18,6 +18,7 @@ aside {
     grid-column: span 2;
     height: 100%;
     background-color: #999999;
+   
 }
 
 main{
@@ -31,24 +32,28 @@ main{
     padding: 2rem 2rem;
 }
 
-.profile {
-    width: 100%;
-    border-bottom: 2px solid #eeeeee;
+.profile_al{
+  display: flex;
+ 
+
+}
+ .profile {
+  height: 118px;
+  width:  118px;
+  border-radius: 50%;
+justify-self: center;
+    /* margin: 32px; */
+   
 }
 
-.profile .profile-image {
-    width: 100%;
-    border-radius: 100%;
-}
-
-.name {
+aside > h1 {
     color: #D6DBDF;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.profession {
+aside > h2 {
     color: #eeeeee;
     font-size: 20px;
     text-transform: uppercase;
@@ -56,7 +61,7 @@ main{
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
-.left-title {
+main >section {
     color: #eeeeee;
     font-size: 20px;
 }
