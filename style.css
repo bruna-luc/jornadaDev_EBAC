@@ -68,6 +68,7 @@ main > h2{
    color: #fff;
    font-size: 40px;
 
+   /* Section main  */
 }
 .aboutMe > p{
   font-size: 18px;
@@ -81,7 +82,7 @@ main > h2{
     color: #F1F8FD;
 }
 
-.institution .profissionalPosition{
+.institution .profissionalPosition , .course{
   font-size: 25px;
   
 }
@@ -92,8 +93,9 @@ main > h2{
      font-size: 18px;
 }
 
-.experienceRight > p{
+.experienceRight > p , .educationRight > p {
   font-size: 16px;
   padding-left: 5px;
   text-align: justify;
 }
+
