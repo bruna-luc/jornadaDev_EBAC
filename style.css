@@ -128,7 +128,7 @@ main > section > h2{
      font-size: 18px;
 }
 
-.experienceRight > p , .educationRight > p {
+.experienceRight > p , .educationRight > p , .certificatesRight > p{
   font-size: 16px;
   padding-left: 5px;
   text-align: justify;
