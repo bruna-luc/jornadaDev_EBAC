@@ -33,6 +33,7 @@ main{
   display: flex;
  justify-content: center;
  }
+
  .profile {
   height: 118px;
   width:  118px;
@@ -44,41 +45,75 @@ aside > h1 {
   margin: 2rem 2rem;
   text-align: center;
     color: #D6DBDF;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 1.875rem;
+    letter-spacing: 0.125rem;
     text-transform: uppercase;
 
 }
 
-aside > h2 {
+aside > h2   {
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
     text-align: center;
-    margin: 2rem 2rem;
+    margin: 2rem;
 }
+
+.contact-info > h2 , .hardSkills > h2 {
+  color: #eeeeee;
+    font-size: 1.25rem;
+     margin: 2rem;
+}
+ a {
+  text-decoration:none;
+  color: #eeeeee;
+}
+
+ li {
+ 
+  color: #eeeeee;
+  font-size: 1.125rem;
+  margin: 0 2rem 0.8125rem;
+
+  
+}
+
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
+ /* Section main  */
+main{
+  padding: 3.75rem 2rem;
+}
+
 main > section {
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 1.25rem;
+    margin-top: 1.125rem;
+}
+main :first-child{
+  margin-top: 0;
 }
 
-main > h2{
+main > h2 {
+
    color: #fff;
-   font-size: 40px;
-
-   /* Section main  */
+   font-size: 2.5rem;
+  margin-bottom: 2.6875rem;
+  padding-bottom: 1.875rem ;
+ 
 }
-.aboutMe > p{
-  font-size: 18px;
+main > section > h2{
+  padding-bottom: 2.125rem;
+}
+.aboutMe > p {
+  font-size: 1.125rem;
   color: #eeeeee;
 }
 
 .block{
-      display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 1rem 2rem;
+    padding: 0rem 1rem 2rem;
     color: #F1F8FD;
 }
 
@@ -93,7 +128,7 @@ main > h2{
      font-size: 18px;
 }
 
-.experienceRight > p , .educationRight > p {
+.experienceRight > p , .educationRight > p , .certificatesRight > p{
   font-size: 16px;
   padding-left: 5px;
   text-align: justify;
